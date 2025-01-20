@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iXqR5jsXYUG1YFBK56fWDtfqQx2O4zgwoiAdHMVKZTA=",
+  "Source": "stock_app",
+  "BasePath": "_content/stock_app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
