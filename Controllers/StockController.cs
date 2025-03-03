@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using stock_app.Dto.Resp;
 
 namespace stock_app.Controllers
 {
@@ -13,6 +14,16 @@ namespace stock_app.Controllers
         public StockController()
         {
             
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetStockById([FromRoute] int id){
+            return null;
+        }
+
+        [HttpPost]
+        public IActionResult createStock([FromBody] StockReqDto dto){
+            return null;
         }
         
     }

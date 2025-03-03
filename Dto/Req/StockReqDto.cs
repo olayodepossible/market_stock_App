@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace stock_app.Dto.Resp
 {
-    public class StockRespDto
+    public class StockReqDto
     {
-        public int Id { get; set; }
         public string Symbol { get; set; } = string.Empty;
         public string CompanyName { get; set; } = string.Empty;
         public decimal Purchase { get; set; }
